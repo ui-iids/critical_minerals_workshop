@@ -3,8 +3,8 @@
 Website for **Envisioning the Future of Critical Minerals and Materials Cyberinfrastructure**
 January 7–8, 2027 · Earth and Planets Laboratory, Carnegie Institution for Science, Washington, DC
 
-Purpose: a central place to link the application form, publish the agenda and logistics,
-and later host the workshop report.
+Purpose: a central place to publish the agenda and logistics, and later host the workshop
+report. (There will be no application form — see Decisions.)
 
 ---
 
@@ -17,7 +17,7 @@ and later host the workshop report.
 | JS | Vanilla, progressive enhancement only (`js/main.js`) |
 | Build step | None — plain files, deployable to any static host |
 | Hero image | `img/DTMGL_SolarEclipse_IMG5105.jpg` |
-| Application form | Placeholder; Google Form URL to be swapped in |
+| Application form | **Dropped (2026-09-04)** — no public application. All "Apply to attend" links removed; `apply.html` kept in the repo but unlinked |
 | Accessibility target | WCAG 2.1 Level AA |
 
 ---
@@ -40,15 +40,16 @@ and later host the workshop report.
 
 Everything below is marked with a `TODO` comment or a `TBA` badge in the source.
 
-- [ ] **Application form URL** → `apply.html` (enable the disabled button)
+- [ ] **How participation works** (invitation? nomination?) → homepage CTA band, `index.html`
 - [ ] **Real contact email** → replace `info@cmmci.org` in all 6 page footers + `apply.html`, `logistics.html`, `organizers.html`
-- [ ] **Key dates**: applications open, deadline, notification, travel booking → `apply.html`
-- [ ] **Confirmed agenda**: keynote speakers, session titles, breakout topics → `agenda.html`
+- [ ] **Key dates**: notification, travel booking → destination TBD (`apply.html` is unlinked)
+- [ ] **Keynote speakers** (4) and final times → `agenda.html` (organizers' tentative agenda is in as of 2026-09-04)
 - [ ] **Lodging**: room block, hotel, rate, booking deadline → `logistics.html`
 - [ ] **Local transit, parking, visa/invitation-letter process** → `logistics.html`
 - [ ] **Co-leader bios and photos** → `organizers.html`
-- [ ] **Funder acknowledgement and award number** → `organizers.html`
-- [ ] **Sponsor / host logos** → `organizers.html`
+- [x] **Funder acknowledgement and award number** → `organizers.html` (NSF Grant No. 2628710, 2026-09-04)
+- [ ] **NSF logo** → `img/nsf-logo.png` + uncomment the `<img>` in `organizers.html`
+      (host institution logos: dropped by the organizers, 2026-09-04)
 - [ ] **Venue photo** (currently using a campus photo as stand-in) → `logistics.html`
 
 ### Phase 3 — Launch
